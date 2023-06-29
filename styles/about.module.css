@@ -1,0 +1,130 @@
+.about {
+  margin-top: 70px;
+}
+.aboutBanner {
+  background-color: #f5f5f5;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+}
+.aboutBanner h1{
+  font-weight: 700;
+  font-size: 40px;
+}
+.aboutBannerLeft {
+  line-height: 35px;
+}
+.aboutBannerLeft h1 {
+  font-size: 50px;
+}
+.aboutBannerLeft p {
+  font-size: 20px;
+}
+.aboutBannerLeft span {
+  padding: 5px 10px;
+  border: 1px solid #111;
+  border-radius: 50px;
+}
+.aboutBannerRight img {
+  width: 400px;
+}
+
+.aboutdesc {
+  max-width: 1170px;
+  margin: 50px auto;
+  padding: 0px 20px;
+}
+.aboutdesc p {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.aboutdesc span {
+  font-size: 18px;
+  color: gray;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+}
+.vission{
+  margin-top: 80px;
+  padding: 20px 0;
+  background-color: #f5f5f5;
+}
+.mission{
+  padding-top: 30px;
+  background-color: #f5f5f5;
+}
+.vission p,
+.mission p{
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+.vissionDiv,
+.missionDiv {
+  display: flex;
+}
+.vissionLeft,
+.missionRight {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.vissionRight,
+.missionLeft {
+  flex: 1;
+  padding: 10px;
+}
+
+.vissionRight span,
+.missionLeft span {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width:992px){
+  .vissionDiv
+  {
+   flex-direction: column;
+  }
+  .missionDiv{
+    flex-direction: column-reverse;
+  }
+  .vissionLeft,
+  .missionRight {
+    
+    padding: 0px;
+  }
+}
+@media (max-width: 768px) {
+ 
+  .aboutBanner {
+    text-align: center;
+  }
+  .aboutBannerRight {
+    display: none;
+  }
+}
+@media (max-width: 568px) {
+  .aboutBanner {
+    padding: 50px;
+  }
+  .aboutBannerLeft {
+    line-height: 35px;
+  }
+  .aboutBannerLeft h1 {
+    font-size: 30px;
+  }
+  .aboutBannerLeft p {
+    font-size: 16px;
+  }
+  .aboutBannerLeft span {
+    padding: 5px 10px;
+    border: 1px solid #111;
+    border-radius: 50px;
+  }
+}

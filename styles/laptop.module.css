@@ -1,0 +1,140 @@
+.laptopcontainer {
+  margin-top: 70px;
+}
+.laptopbanner {
+  position: relative;
+}
+
+.banner img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.dellLogo{
+  width: 60px !important;
+}
+.sennheiserlogo{
+  width: 150px !important;
+}
+.banner_text {
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  /* color: #fff; */
+}
+.banner_text h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.banner_text p {
+  color: gray;
+}
+.bannertextcolor{
+  color: #fff;
+}
+.serverbanner{
+  color: #111;
+}
+.companylaptop {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.companybanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.companybanner img {
+  width: 150px;
+}
+
+
+.laptopmobilebanner {
+  display: none;
+}
+
+/* logo */
+.logos{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.logos img{
+  width:150px;
+  height: 100px;
+}
+/* smartphone */
+.smartphonebanner h1{
+  font-weight: 600;
+  color: #111;
+}
+.smartphonebanner p{
+  color: #111;
+}
+@media (max-width: 992px) {
+  .headphonebannerimg img{
+    width: 250px;
+  }
+  .laptopbanner {
+    display: none;
+  }
+  .laptopmobilebanner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .laptopmobilebanner img {
+    padding: 0px 50px;
+  }
+  .laptopmobilebanner h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .laptopmobilebanner p {
+    color: gray;
+    font-size: 20px;
+    padding: 0px 20px;
+    display: flex;
+    text-align: center;
+  }
+
+}
+@media (max-width: 768px) {
+  .laptopmobilebanner h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .laptopmobilebanner p {
+    color: gray;
+    font-size: 18px;
+  }
+ 
+}
+@media (max-width: 568px) {
+  .laptopmobilebanner h1 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 20px;
+  }
+  .laptopmobilebanner p {
+    color: gray;
+    font-size: 15px;
+  }
+  .logos{   
+    gap: 10px;
+  }
+  .logos img{
+    width:100px;
+  }
+}

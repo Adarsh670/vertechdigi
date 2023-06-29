@@ -1,0 +1,151 @@
+.accessoriesContainer {
+  margin-top: 70px;
+}
+.accessorBanner {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+.accessoriesContainer h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.productsDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 50px 50px;
+  justify-content: center;
+}
+.productCard {
+  width: 23%;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.productCard p {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0 !important;
+}
+.productCard .productImg {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+  background-color: #f5f5f5;
+}
+.company {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+.hplogo img {
+  width: 100px;
+}
+.sandisk img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+.kingston img {
+  width: 200px;
+}
+/* logo */
+.logos,
+.acclogos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.logos img {
+  width: 130px;
+  height: 50px;
+}
+/* accessorieslogo */
+.acclogos img {
+  width: 120px;
+  height: 90px;
+}
+.softwarelogos img{
+  width: 150px;
+  height: 50px;
+}
+/* mobile */
+.mobileBanner img {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+.printerBanner img {
+  width: 100%;
+  object-fit: cover;
+}
+.upsBanner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Product Desc */
+.productdesc {
+  margin-top: 10px;
+}
+.productdesc p {
+  font-size: 17px;
+}
+.productdesc ul li {
+  font-size: 15px;
+  padding: 2px 0;
+}
+.productdesc ul li span {
+  font-weight: 500 !important;
+}
+
+/* microsoftIcons */
+.micorsofticons {
+  display: flex;
+}
+.micorsofticons li {
+  margin-right: 5px;
+}
+.micorsofticons li img {
+  width: 25x;
+}
+@media (max-width: 568px) {
+  .logos img {
+    width: 100px;
+    height: 70px;
+  }
+  .productsDiv {
+    padding: 0px;
+    gap: 0;
+  }
+
+  .productCard {
+    width: 40%;
+    margin: 10px;
+  }
+  .productCard .productImg {
+    padding: 0px;
+  }
+  .accessoriesContainer h1 {
+    font-size: 27px;
+    font-weight: 600;
+  }
+  .mobileBanner img {
+    height: 150px;
+  }
+
+  .productdesc p {
+    font-size: 15px;
+  }
+  .productdesc ul li {
+    font-size: 13px;
+    padding: 2px 0;
+  }
+}
